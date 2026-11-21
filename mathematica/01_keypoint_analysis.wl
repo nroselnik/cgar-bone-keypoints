@@ -2,7 +2,7 @@
 
 (* ============================================================
    Keypoint analysis of diagnostic skeletal elements
-   CGAR reference bones (Hanani FYP 2026 image set)
+   CGAR reference bones (CGAR, Universiti Sains Malaysia)
    Elements: Mandible_lateral, Maxilla_ventral, Humerus, Tibia
    Species: Hystrix brachyura, Trichys fasciculata,
             Muntiacus muntjak, Muntiacus atherodes
