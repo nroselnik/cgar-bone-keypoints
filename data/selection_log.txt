@@ -1,0 +1,14 @@
+Mandible_lateral,Hystrix_brachyura,9374-9389,16 in run,8 copied: 9374 9376 9378 9380 9382 9384 9386 9388
+Mandible_lateral,Trichys_fasciculata,389-404,16 in run,8 copied: 0389 0391 0393 0395 0397 0399 0401 0403
+Mandible_lateral,Muntiacus_muntjak,7853-7871,19 in run,8 copied: 7853 7855 7857 7860 7862 7864 7867 7869
+Mandible_lateral,Muntiacus_atherodes,8550-8564,15 in run,8 copied: 8550 8551 8553 8555 8557 8559 8561 8563
+Maxilla_ventral,Hystrix_brachyura,9420-9440,21 in run,8 copied: 9420 9422 9425 9427 9430 9433 9435 9438
+Maxilla_ventral,Trichys_fasciculata,462-478,17 in run,8 copied: 0462 0464 0466 0468 0470 0472 0474 0476
+Maxilla_ventral,Muntiacus_muntjak,7913-7924,12 in run,8 copied: 7913 7914 7916 7917 7919 7920 7922 7923
+Maxilla_ventral,Muntiacus_atherodes,8619-8624,6 in run,6 copied: 8619 8620 8621 8622 8623 8624
+Humerus,Hystrix_brachyura,9755-9777,23 in run,8 copied: 9755 9757 9760 9763 9766 9769 9772 9775
+Humerus,Trichys_fasciculata,495-511,17 in run,8 copied: 0495 0497 0499 0501 0503 0505 0507 0509
+Humerus,Muntiacus_muntjak,7786-7796,10 in run,8 copied: 7786 7788 7789 7790 7792 7793 7794 7795
+Tibia,Hystrix_brachyura,9734-9747,14 in run,8 copied: 9734 9735 9737 9739 9741 9742 9744 9746
+Tibia,Trichys_fasciculata,644-648,5 in run,5 copied: 0644 0645 0646 0647 0648
+Tibia,Muntiacus_muntjak,8082-8096,15 in run,8 copied: 8082 8083 8085 8087 8089 8091 8093 8095

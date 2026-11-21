@@ -1,0 +1,6 @@
+__pycache__/
+*.mx
+.DS_Store
+sheets/
+figures/
+PAPER/
