@@ -2,7 +2,7 @@
 
 Code for the paper:
 
-**One skeleton per species: what image-based AI learns from a zooarchaeological reference collection**
+**What the machine sees: keypoints, outlines and pretrained features on porcupine and muntjac bones**
 Nurulain Hanani Syahirah Othmarani, Velat Bujeng, Bugin Anak Bunyau, Nik Fadzly N Rosely
 (manuscript in preparation)
 
