@@ -64,6 +64,7 @@ data/photos/   (or your own PAPER folder)
    - `01_keypoint_analysis.wl` writes to `PAPER/results`
    - `02_shape_and_features.wl` writes to `PAPER/results2`
    - `03_keypoint_figures_masked.wl` writes to `PAPER/results3`
+   - `04_mds_stress.wl` writes to `PAPER/results4`: classical MDS coordinates for Figure 4, the full distance matrices, and Kruskal stress-1 and variance on axes 1 and 2 for each plot (`MDS_fit_summary.csv`). The MDS plots made by script 02 are quick previews only; Figure 4 uses script 04, whose MDS is computed from the same distances as the nearest-other-species test.
 
    Script 01 is the slowest (several minutes for about 500 image pairs per element). If needed, lower `maxSize` near the top of the file.
 
@@ -83,7 +84,12 @@ data/photos/   (or your own PAPER folder)
 | Matching | ImageCorrespondingPoints, SURF, TransformationClass "Similarity" |
 | Outline shape | max centroid distance in 180 angular bins, mean-normalised, Fourier magnitudes 1 to 30 |
 | Network features | FeatureExtract default extractor on square black-padded crops, cosine distance |
+| MDS (Figure 4) | classical (Torgerson) MDS of the test distance matrix; Kruskal stress-1 reported |
 | Test | nearest image of a different species; success if congener (*Muntiacus*) or confamilial (Hystricidae); one-sided binomial |
+
+## Precomputed results
+
+`results/mds/` holds the output of `04_mds_stress.wl` used in the paper (coordinates, distance matrices and `MDS_fit_summary.csv`).
 
 ## Notes
 
