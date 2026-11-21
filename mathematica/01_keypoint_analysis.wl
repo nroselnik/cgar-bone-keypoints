@@ -99,7 +99,7 @@ Do[Print["  ", el, ": ",
 
 (* ---------- 4. Background check (uncropped images) ---------- *)
 (* High values mean the detector is looking at the cloth, the failure seen in
-   Fadzly et al. 2021 (Fig. 1a) and in Hanani's YOLO models. *)
+   Fadzly et al. 2021 (Fig. 1a). *)
 
 bgTable = Flatten[Table[
     MapThread[{el, sp, #1, backgroundFraction[#2]} &,
