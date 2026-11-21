@@ -31,12 +31,14 @@ data/
 
 ## Data
 
-The photographs are not included in this repository. They are available from the authors on request [or: archived at Zenodo, DOI to be added].
+The 107 analysed photographs are in `data/photos/`, as the original JPEG files from the camera (Canon EOS 600D, 18–55 mm lens, black background). The camera settings for each photograph are stored in its EXIF metadata. Photographs are released under CC BY 4.0 (see `data/photos/LICENSE`).
 
-The scripts expect this folder layout (built by `select_images.py`):
+To run the analysis on these photographs, point `baseDir` in the scripts to `data/photos` (full path). The results folders are then written inside `data/photos`.
+
+The scripts expect this folder layout (the same as `data/photos/`, and as built by `select_images.py`):
 
 ```
-PAPER/
+data/photos/   (or your own PAPER folder)
   Mandible_lateral/  Hystrix_brachyura/  Trichys_fasciculata/  Muntiacus_muntjak/  Muntiacus_atherodes/
   Maxilla_ventral/   (same four species)
   Humerus/           Hystrix_brachyura/  Trichys_fasciculata/  Muntiacus_muntjak/
@@ -47,14 +49,14 @@ PAPER/
 
 ## How to reproduce
 
-1. **Build the image set** (optional if you already have the PAPER folder):
+1. **Build the image set** (skip this step if you use `data/photos/`):
    ```
    python python/make_contact_sheets.py "<RAW>/Malayan porcupine /Black bg " Hys sheets/
    python python/select_images.py <RAW> <PAPER>
    ```
    `<RAW>` is the folder holding the original species folders. Some original folder names end in a space; keep them as they are.
 
-2. **Set the path.** In each of the three `.wl` files, edit the line marked `EDIT THIS LINE` so that `baseDir` points to your PAPER folder. Use the full path, in quotes.
+2. **Set the path.** In each of the three `.wl` files, edit the line marked `EDIT THIS LINE` so that `baseDir` points to `data/photos` (or your own PAPER folder). Use the full path, in quotes.
 
 3. **Run the Mathematica scripts in order** (open each file and choose Evaluation > Evaluate Notebook, or use `Get["path/to/file.wl"]`):
    - `01_keypoint_analysis.wl` writes to `PAPER/results`
@@ -88,7 +90,7 @@ PAPER/
 
 ## Licence
 
-Code is released under the MIT Licence (see `LICENSE`).
+Code is released under the MIT Licence (see `LICENSE`). Photographs in `data/photos/` are released under the Creative Commons Attribution 4.0 International Licence (CC BY 4.0; see `data/photos/LICENSE`). Please credit the authors and the Centre for Global Archaeological Research, Universiti Sains Malaysia.
 
 ## Contact
 
