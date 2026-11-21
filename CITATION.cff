@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code or these photographs, please cite them as below."
+title: "cgar-bone-keypoints: keypoints, outlines and pretrained features on porcupine and muntjac bones"
+version: "1.0"
+doi: 10.5281/zenodo.24423156
+date-released: 2026-11-22
+license: MIT
+repository-code: "https://github.com/nroselnik/cgar-bone-keypoints"
+authors:
+  - family-names: Othmarani
+    given-names: Nurulain Hanani Syahirah
+    affiliation: "School of Biological Sciences, Universiti Sains Malaysia"
+  - family-names: Bujeng
+    given-names: Velat
+    affiliation: "Centre for Global Archaeological Research, Universiti Sains Malaysia"
+  - family-names: Bunyau
+    given-names: Bugin Anak
+    affiliation: "Centre for Global Archaeological Research, Universiti Sains Malaysia"
+  - family-names: Rosely
+    given-names: Nik Fadzly N
+    affiliation: "School of Biological Sciences, Universiti Sains Malaysia"
+    orcid: "https://orcid.org/0000-0002-6282-8423"
+    email: nfadzly@usm.my

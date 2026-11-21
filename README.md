@@ -1,5 +1,7 @@
 # cgar-bone-keypoints
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24423156.svg)](https://doi.org/10.5281/zenodo.24423156)
+
 Code for the paper:
 
 **What the machine sees: keypoints, outlines and pretrained features on porcupine and muntjac bones**
@@ -87,6 +89,10 @@ data/photos/   (or your own PAPER folder)
 
 - Mathematica's default feature extractor can change between versions. Results for the network-feature analysis were produced with Mathematica 15.
 - Images of one specimen are not independent, so p-values describe these specimens, not species in general.
+
+## Citing
+
+Please cite the archived release: Othmarani, N. H. S., V. Bujeng, B. A. Bunyau and N. F. N. Rosely. 2026. cgar-bone-keypoints, v1.0. Zenodo. https://doi.org/10.5281/zenodo.24423156
 
 ## Licence
 
