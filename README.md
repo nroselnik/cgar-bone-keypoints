@@ -6,7 +6,7 @@ Code for the paper:
 Nurulain Hanani Syahirah Othmarani, Velat Bujeng, Bugin Anak Bunyau, Nik Fadzly N Rosely
 (manuscript in preparation)
 
-The study re-examines a YOLOv11 bone detector trained on one skeleton per species, then uses keypoint, outline-shape and pretrained-network analyses on photographs of four elements (mandible, maxilla, humerus, tibia) from four Malaysian mammals held at the Centre for Global Archaeological Research (CGAR), Universiti Sains Malaysia: *Hystrix brachyura*, *Trichys fasciculata*, *Muntiacus muntjak* and *Muntiacus atherodes*.
+The study measures how strongly photographs of one specimen resemble each other, and uses keypoint, outline-shape and pretrained-network analyses on photographs of four elements (mandible, maxilla, humerus, tibia) from four Malaysian mammals held at the Centre for Global Archaeological Research (CGAR), Universiti Sains Malaysia: *Hystrix brachyura*, *Trichys fasciculata*, *Muntiacus muntjak* and *Muntiacus atherodes*.
 
 ## Contents
 
