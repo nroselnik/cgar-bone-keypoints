@@ -1,6 +1,6 @@
 # cgar-bone-keypoints
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24423156.svg)](https://doi.org/10.5281/zenodo.24423156)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24423577.svg)](https://doi.org/10.5281/zenodo.24423577)
 
 Code for the paper:
 
@@ -98,7 +98,7 @@ data/photos/   (or your own PAPER folder)
 
 ## Citing
 
-Please cite the archived release: Othmarani, N. H. S., V. Bujeng, B. A. Bunyau and N. F. N. Rosely. 2026. cgar-bone-keypoints, v1.0. Zenodo. https://doi.org/10.5281/zenodo.24423156
+Please cite the archived release: Othmarani, N. H. S., V. Bujeng, B. A. Bunyau and N. F. N. Rosely. 2026. cgar-bone-keypoints, v1.1. Zenodo. https://doi.org/10.5281/zenodo.24423577
 
 ## Licence
 

@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this code or these photographs, please cite them as below."
 title: "cgar-bone-keypoints: keypoints, outlines and pretrained features on porcupine and muntjac bones"
-version: "1.0"
-doi: 10.5281/zenodo.24423156
+version: "1.1"
+doi: 10.5281/zenodo.24423577
 date-released: 2026-11-22
 license: MIT
 repository-code: "https://github.com/nroselnik/cgar-bone-keypoints"
