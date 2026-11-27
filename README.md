@@ -87,6 +87,10 @@ data/photos/   (or your own PAPER folder)
 | MDS (Figure 4) | classical (Torgerson) MDS of the test distance matrix; Kruskal stress-1 reported |
 | Test | nearest image of a different species; success if congener (*Muntiacus*) or confamilial (Hystricidae); one-sided binomial |
 
+## Methods S1
+
+`docs/Methods_S1.pdf` explains the outline shape descriptor step by step (centroid, 180-bin radius profile, size normalisation, Fourier magnitudes), why it ignores position, size, rotation and mirroring, how it compares with elliptic Fourier analysis, and the details of the network-feature distance, the nearest-other-species test and classical MDS with stress. `python/methods_s1_figure.py` draws the worked example (Figure S3) with a Python re-implementation of the descriptor; run `python methods_s1_figure.py ../data/photos FigS3.png` from the `python` folder.
+
 ## Precomputed results
 
 `results/mds/` holds the output of `04_mds_stress.wl` used in the paper (coordinates, distance matrices and `MDS_fit_summary.csv`).
